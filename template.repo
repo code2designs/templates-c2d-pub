@@ -1,0 +1,16 @@
+[Template-repo]
+
+[Human readable name for the repository]
+name=
+
+[URL which hosts the YUM repository. Multiple URLs may be listed, but don't use multiple baseurl statements]
+baseurl=
+
+[Either 1 or 0, Often, it can be convenient to have a repository defined, but disabled by default.]
+enabled=1
+
+[1 or 0, The repository specific configuration has the same effect as the global option of the same name, and takes precedence.]
+gpgcheck=1
+
+[The URL from which the GPG key used to verify packages can be downloaded.]
+gpgkey=
